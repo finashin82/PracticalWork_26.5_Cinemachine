@@ -798,6 +798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597963582}
   - component: {fileID: 597963581}
+  - component: {fileID: 597963583}
   m_Layer: 0
   m_Name: VirtualCamera2
   m_TagString: Untagged
@@ -860,6 +861,23 @@ Transform:
   - {fileID: 430429825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &597963583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597963580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729aad4491e915a41bda2b8325cf757a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 0c95aa20b192f9f4e8f5d2b47697fa0c, type: 2}
 --- !u!1 &600218396
 GameObject:
   m_ObjectHideFlags: 3
@@ -2135,6 +2153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513960481}
   - component: {fileID: 1513960480}
+  - component: {fileID: 1513960482}
   m_Layer: 0
   m_Name: VirtualCamera3
   m_TagString: Untagged
@@ -2197,6 +2216,23 @@ Transform:
   - {fileID: 1220054951}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513960482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513960479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729aad4491e915a41bda2b8325cf757a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 3be8c37e23d9fe244bee63f270c6f2c0, type: 2}
 --- !u!1 &1645937052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,6 +2448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721871073}
   - component: {fileID: 1721871072}
+  - component: {fileID: 1721871074}
   m_Layer: 0
   m_Name: VirtualCamera4
   m_TagString: Untagged
@@ -2474,6 +2511,23 @@ Transform:
   - {fileID: 1417533585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721871074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721871071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729aad4491e915a41bda2b8325cf757a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: c3853706eaed50e4bb0854569206fffc, type: 2}
 --- !u!1 &1721884879
 GameObject:
   m_ObjectHideFlags: 3
@@ -5178,6 +5232,14 @@ PrefabInstance:
     - target: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_Name
       value: PlayerArmature
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: MoveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: SprintSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: GroundLayers.m_Bits
